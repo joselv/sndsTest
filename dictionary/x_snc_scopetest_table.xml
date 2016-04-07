@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="Scopetest Table" max_length="40" name="x_snc_scopetest_table" sizeclass="10" type="collection"/>
+    <element extends="task" label="Scopetest Table" max_length="40" name="x_snc_scopetest_table" sizeclass="10" type="collection">
+        <element label="fieldA" max_length="123" name="fielda" type="string"/>
+    </element>
 </database>
